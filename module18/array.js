@@ -51,3 +51,32 @@ console.log(`...........`);
 // reverse method
 number.reverse();
 console.log(number);
+
+// 18_4: Sort Array in Ascending & Descending Order (Manual & sort() method)
+// sort
+const numbers = [2, 5, 3, 1, 7, 6];
+numbers.sort();
+console.log(numbers);
+
+const Name = ["jian", "amara", "haturi", "doramon"];
+Name.sort();
+console.log(Name);
+console.log(`...........`);
+
+// alternate
+const age = [1, 4, 3, 16, 100, 5, 200];
+age.sort();
+console.log(age);
+// ascending
+asc_sort_age = age.sort(function (a, b) {
+  return a - b;
+});
+console.log(asc_sort_age);
+// descending
+desc_sort_age = age.sort(function (b, a) {
+  return a - b;
+});
+console.log(desc_sort_age);
+console.log(`...........`);
+
+// 18_5: Array of Objects and Access Object inside an Array
